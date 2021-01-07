@@ -123,6 +123,4 @@ cat <<EOF >> $CONFIG_FILE
 
 EOF
 
-cat $CONFIG_FILE
-
 exec nginx -c $CONFIG_FILE
